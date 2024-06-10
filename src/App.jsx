@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import React from 'react';
 import './App.css'
 import TodoList from './components/ToDoList/ToDoList';
+
 
 const App = () => {
   return (
     <div className="App">
-      <TodoList/>
+      <TodoList />
     </div>
   );
 };
