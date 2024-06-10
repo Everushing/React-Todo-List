@@ -1,74 +1,94 @@
-/* Existing styles */
+/* Global styles */
 
-.App {
+body {
   font-family: sans-serif;
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  min-height: 100vh;
-  background-color: #f5f5f5;
-}
-
-.App h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Light gray background */
 }
 
-li {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+
+.create-mockup-task {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd; /* Light border */
+  background-color: #fff; /* White background for task sections */
 }
 
-li input[type="checkbox"] {
-  margin-right: 10px;
+.create-mockup-task h2 {
+  margin: 0;
+  color: #333; /* Dark gray for text */
 }
 
-li span {
-  flex-grow: 1;
-}
-
-li button {
+.create-mockup-task button {
   padding: 5px 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  background-color: #007bff; /* Blue for buttons */
+  color: #fff; /* White text for buttons */
 }
 
-li button:hover {
-  opacity: 0.8;
+.create-mockup-task button:hover {
+  background-color: #0069d9; /* Darker blue on hover */
 }
 
-.disabled {
-  opacity: 0.5;
-  cursor: default;
+/* same as Create Mockup Task */
+
+.create-static-layout-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
 }
 
-input[type="text"] {
-  padding: 5px;
-  border: 1px solid #ddd;
+.create-static-layout-task h2 {
+  margin: 0;
+  color: #333;
+}
+
+.create-static-layout-task button {
+  padding: 5px 10px;
+  border: none;
   border-radius: 3px;
-  width: 100%;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
 }
 
-/* New styles for calendar (assuming react-calendar is used) */
-
-.react-calendar {
-  /* Apply custom styles here (refer to react-calendar documentation) */
-  /* Example: adjust width, margin, border, etc. */
-  width: 300px;
-  margin: 20px auto;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+.create-static-layout-task button:hover {
+  background-color: #0069d9;
 }
 
+
+
+.add-interactivity-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.add-interactivity-task h2 {
+  margin: 0;
+  color: #333;
+}
+
+.add-interactivity-task button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #28a745; 
+  color: #fff;
+}
+
+.add-interactivity-task button:hover {
+  background-color: #218c3d; 
+}

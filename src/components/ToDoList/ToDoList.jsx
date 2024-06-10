@@ -40,8 +40,7 @@ const TodoList = () => {
  
  return (
     <div className="todo-list">
-      <h1>Todo List</h1>
-      <TodoForm onSubmit={addTodo} />
+     <TodoForm onSubmit={addTodo} />
      <ul>
         {todos.map((todo) => (
           <TodoItem
